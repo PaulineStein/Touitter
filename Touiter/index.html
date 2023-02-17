@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/helpers.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Touiteur</title>
+</head>
+
+
+
+<body>
+    <div class="set-menu">
+        <header class="main-header">
+            <h1>Touiteur</h1>
+
+            <form class="form-menu">
+                <div class="set-input-pseudo">
+                    <label for="pseudo-input">Sous quel nom ridicule, permettant une anonymisation douteuse, allez vous
+                        participer à la création de contenus sur le Web ?</label>
+                    <br>
+                    <input class="input-text" type="text" id="pseudo-input" placeholder="Pseudo" minlength="3"
+                        maxlength="16" />
+                </div>
+
+                <div class="set-input-message">
+                    <label for="message-input">Quel message pensez-vous être suffisament important pour que vous le
+                        partagiez
+                        au
+                        monde, alors que personne ne vous à rien demandé ?</label>
+                    <br>
+                    <input class="input-text" type="text" id="message-input" placeholder="Message" minlength="3"
+                        maxlength="256" />
+                </div>
+
+                <div class="set-input-button">
+                    <input class="input-button" type="submit" value="Ajouter" />
+                </div>
+            </form>
+        </header>
+
+        <footer class="main-footer">
+            <nav class="main-footer-nav">
+                <div class="footer-nav"><a class="nav-link" href="">Conditions d'utilisation</a></div>
+                <div class="footer-nav"><a class="nav-link" href="">Contact</a></div>
+                <div class="footer-nav"><a class="nav-link" href="">Mentions légales</a></div>
+            </nav>
+        </footer>
+    </div>
+
+    <main class="container" id="container-post">
+
+        <!-- <div class="post">
+            <h3>Pseudo</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed libero ac erat cursus rutrum ut maximus
+                augue. Donec a ultrices dolor, a condimentum purus. Pellentesque lacinia tortor id ligula sollicitudin
+                malesuada. Duis sed mauris odio. Curabitur dolor.</p>
+
+            <div class="interaction-set">
+                <div class="comment">0 commentaire</div>
+                <div class="interaction-like">
+                    <div class="like">0</div>
+                    <img src="img/likeBorder.svg" alt="" id="button-like">
+                    <img src="img/unlikeBorder.svg" alt="" id="button-unlike">
+                </div>
+            </div>
+        </div> -->
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
